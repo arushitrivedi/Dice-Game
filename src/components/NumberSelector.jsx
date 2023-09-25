@@ -26,7 +26,7 @@ const NumberSelector = ({
           </Box>
         ))}
       </div>
-      <p>Select Number</p>
+      <p>Choose a Number</p>
     </NumberSelectorContainer>
   );
 };
@@ -59,6 +59,12 @@ const Box = styled.div`
   place-items: center;
   font-size: 24px;
   font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    background-color: black;
+    border: 1px solid transparent;
+    color: white;
+  }
   background-color: ${(props) => (props.isSelected ? "black" : "white")};
   color: ${(props) => (!props.isSelected ? "black" : "white")};
 `;
