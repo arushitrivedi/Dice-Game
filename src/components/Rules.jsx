@@ -3,15 +3,14 @@ import styled from "styled-components";
 const Rules = () => {
   return (
     <RulesContainer>
-      <h2>How to play dice game</h2>
+      <h2>Rules to play the dice game</h2>
       <div className="text">
-        <p>Select any number</p>
-        <p>Click on dice image</p>
+        <p>Select a number from 1-6</p>
+        <p>Click on the black dice to play the game</p>
         <p>
-          after click on dice if selected number is equal to dice number you
-          will get same point as dice{" "}
+          If the number on the dice matches the number you had selected, you will score points equivalent to the obtained number.{" "}
         </p>
-        <p>if you get wrong guess then 2 point will be dedcuted </p>
+        <p>Otherwise, 2 points will get dedcuted. </p>
       </div>
     </RulesContainer>
   );
